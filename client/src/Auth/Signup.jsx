@@ -70,7 +70,7 @@ const Signup = () => {
     <div>
       <div className="Wrapper flex-column flex-md-row">
         <div className="mediaSection col- col-md-6 rounded-3 overflow-hidden">
-          <video src="/public/field video.mp4" className='' autoPlay loop muted> 
+          <video src="/field video.mp4" className='' autoPlay loop muted> 
           </video>
         </div> 
         <div className="formSection col- col-md-6 d-flex align-items-center">

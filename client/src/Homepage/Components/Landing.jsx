@@ -80,7 +80,7 @@ const Landing = () => {
               </ol>
             </div>
             <div className="uploadDemo animated-slidein">
-              <img src="/public/upload-demo.png" alt="Upload Demo" style={{ maxWidth: '260px', borderRadius: '1rem', boxShadow: '0 2px 12px #8ed93f33' }} />
+              <img src="/upload-demo.png" alt="Upload Demo" style={{ maxWidth: '260px', borderRadius: '1rem', boxShadow: '0 2px 12px #8ed93f33' }} />
             </div>
           </div>
         </section>
@@ -106,7 +106,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="dashboardChart">
-                <img src="/public/dashboard-preview.png" alt="Dashboard Chart" style={{ width: '100%', borderRadius: '1rem', marginTop: '1.5rem' }} />
+                <img src="/dashboard-preview.png" alt="Dashboard Chart" style={{ width: '100%', borderRadius: '1rem', marginTop: '1.5rem' }} />
               </div>
             </div>
           </div>
