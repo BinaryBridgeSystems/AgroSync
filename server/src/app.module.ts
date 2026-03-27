@@ -10,6 +10,7 @@ import { join } from 'path';
 import { diskStorage } from 'multer';
 import { fileNameEditor, imageFileFilter } from './utils/filter';
 import { PaymentsModule } from './payments/payments.module';
+import { HealthController } from './health/health.controller';
 
 
 @Module({
@@ -37,6 +38,7 @@ import { PaymentsModule } from './payments/payments.module';
     ListingsModule,
     AiModule,
     PaymentsModule,
-  ]
+  ],
+  controllers: [HealthController]
 })
 export class AppModule {}
